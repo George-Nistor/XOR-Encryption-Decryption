@@ -17,4 +17,4 @@ if len(sys.argv) == 3 and file_exists(sys.argv[1]) and file_exists(sys.argv[2]):
             key = xor_key(IN_TXT.read(30), IN_BIN.read(30))
             print(key)
 else:
-	print("usage: $python3 encrypt.py <txt_file> <bin_file>")
+	print("usage: $python3 encrypt.py <text file> <binary file>")
